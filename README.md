@@ -32,11 +32,11 @@
 
 创建型模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是使用new运算符直接实例化对象。这使得程序在判断针对某个给定实例需要创建哪些对象时更加灵活。
 
-- 工厂模式 (Factory)
-- 抽象工厂模式 (Abstract Factory)
+- [工厂模式](Creational/Factory/Factory.md) (Factory)
+- [抽象工厂模式](Creational/Factory/Factory.md) (Abstract Factory)
 - [单例模式](Creational/Singleton/Singleton.md) (Singleton)		🍎
-- 建造者模式 (Builder)
-- 原型模式 (Prototype)
+- [建造者模式](Creational/Builder/Builder.md) (Builder)
+- [原型模式](Creational/Prototype/Prototype.md) (Prototype)
 
 
 ### 结构型模式(Structural)
@@ -82,7 +82,7 @@
 
 
 ## 参考
-https://github.com/ochococo/Design-Patterns-In-Swift
+https://github.com/ochococo/Design-Patterns-In-Swift  
 https://github.com/lizelu/DesignPatterns-Swift
 https://github.com/skyming/Trip-to-iOS-Design-Patterns
 
