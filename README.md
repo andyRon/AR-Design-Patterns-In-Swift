@@ -47,12 +47,11 @@
 
 
 - [适配器模式](Structural/Adapter/Adapter.md) (Adapter)
-- 桥接模式 (Bridge)
-- 过滤器模式 (Filter、Criteria)  🤔
-- 组合模式 (Composite)
+- [桥接模式](Structural/Bridge/Bridge.md) (Bridge)
+- [组合模式](Structural/Composite/Composite.md) (Composite)
 - [装饰器模式](Structural/Decorator/Decorator.md) (Decorator)
-- 外观模式 (Facade)
-- 享元模式 (Flyweight)
+- [外观模式](Structural/Facade/Facade.md) (Facade)
+- [享元模式](Structural/Flyweight/Flyweight.md) (Flyweight)
 - [代理模式](Structural/Proxy/Proxy.md) (Proxy)		🍎
 
 
@@ -62,18 +61,24 @@
 
 行为型模式特别关注对象之间的通信。
 
+行为模式涉及到算法和对象间职责的分配。行为模式不仅描述对象或类的模式，还描述它们之间的通信模式。这些模式刻划了在运行时难以跟踪的复杂的控制流。它们将你的注意 力从控制流转移到对象间的联系方式上来。
 
-- 责任链模式 (Chain of Responsibility)
-- 命令模式 (Command)			
-- 解释器模式 (Interpreter)
-- 迭代器模式 (Iterator)
-- 中介者模式 (Mediator)
+- [责任链模式](Behavioral/ChainofResponsibility/ChainofResponsibility.md) (Chain of Responsibility)
+- [命令模式](Behavioral/Command/Command.md) (Command)			
+- [解释器模式](Behavioral/Interpreter/Interpreter.md) (Interpreter)
+- [迭代器模式](Behavioral/Iterator/Iterator.md) (Iterator)
+- [中介者模式](Behavioral/Mediator/Mediator.md) (Mediator)
 - [备忘录模式](Behavioral/Memento/Memento.md) (Memento)
 - [观察者模式](Behavioral/Observer/Observer.md) (Observer)			🍎
-- 状态模式 (State)
-- 策略模式 (Strategy)
-- 模板模式 (Template)
-- 访问者模式 (Visitor)
+- [状态模式](Behavioral/State/State.md) (State)
+- [策略模式](Behavioral/Strategy/Strategy.md) (Strategy)
+- [模板模式](Behavioral/Template/Template.md) (Template)
+- [访问者模式](Behavioral/Visitor/Visitor.md) (Visitor)
+
+
+
+
+
 
 
 ## 设计模式之间的关系
