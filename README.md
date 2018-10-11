@@ -78,18 +78,33 @@
 
 
 
-
-
-
-## 设计模式之间的关系
+### 23设计模式之间的关系
 
 ![设计模式之间的关系](the-relationship-between-design-patterns.jpg)
 
 
+## 其它设计模式
+
+MVVM and MVC, are actually *architectural patterns*, which span an entire app or subsystem architecture. 
+
+
+- MVC
+- [MVVM](MVVM/MVVM.md)
+
+
+
 ## 参考
-https://github.com/ochococo/Design-Patterns-In-Swift  
-https://github.com/lizelu/DesignPatterns-Swift
-https://github.com/skyming/Trip-to-iOS-Design-Patterns
+
+- 主要参考：
+[Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift)
+[Design Patterns by Tutorials](https://store.raywenderlich.com/products/design-patterns-by-tutorials) 
+
+[DesignPatterns-Swift](https://github.com/lizelu/DesignPatterns-Swift)
+[Trip-to-iOS-Design-Patterns](https://github.com/skyming/Trip-to-iOS-Design-Patterns): iOS 设计模式相关资料整理
+
+
+
+- 其它参考
 
 https://github.com/leichunfeng/DesignPatterns-Objective-C
 
