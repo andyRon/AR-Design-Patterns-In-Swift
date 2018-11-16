@@ -30,6 +30,7 @@
 
 > In software engineering, creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. The basic form of object creation could result in design problems or added complexity to the design. Creational design patterns solve this problem by somehow controlling this object creation.		----[wikipedia.org](http://en.wikipedia.org/wiki/Creational_pattern)
 
+
 创建型模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是使用new运算符直接实例化对象。这使得程序在判断针对某个给定实例需要创建哪些对象时更加灵活。
 
 - [工厂模式](Creational/Factory/Factory.md) (Factory)

@@ -21,7 +21,7 @@
 
 
 ### 实例
-UIApplication, NSBundle, NSNotificationCenter, NSFileManager, NSUserDefault, NSURLCache
+UIApplication, Bundle, NotificationCenter, FileManager, UserDefault, URLCache
 
 类型属性
 UIApplication.shared

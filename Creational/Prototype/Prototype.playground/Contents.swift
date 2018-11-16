@@ -1,10 +1,9 @@
 /*:
- 🃏 Prototype
- ------------
- The prototype pattern is used to instantiate a new object by copying all of the properties of an existing object, creating an independent clone.
- This practise is particularly useful when the construction of a new object is inefficient.
- ### Example
+ 原型模式 (Prototype)
+ 
+ 原型模式用于通过复制现有对象的所有属性来实例化新对象，从而创建独立克隆。当新对象的构造效率低下时，这种做法特别有用。
  */
+
 class ChungasRevengeDisplay {
     var name: String?
     let font: String

@@ -1,10 +1,9 @@
 /*:
- 👷 Builder
- ----------
- The builder pattern is used to create complex objects with constituent parts that must be created in the same order or using a specific algorithm.
- An external class controls the construction algorithm.
- ### Example
+ 建造者模式 (Builder)
+
+ 构建器模式用于创建复杂对象，其中组成部分必须以相同顺序或使用特定算法创建。外部类控制构造算法。
  */
+
 class DeathStarBuilder {
     
     var x: Double?
