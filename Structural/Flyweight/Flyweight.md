@@ -1,4 +1,4 @@
-享元模式  Flyweight
+享元模式(Flyweight)
 -----------
 
 

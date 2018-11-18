@@ -1,4 +1,4 @@
-组合模式 Composite
+组合模式(Composite)
 ---------
 
 

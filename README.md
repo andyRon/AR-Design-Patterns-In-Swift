@@ -97,7 +97,7 @@ MVVM and MVC, are actually *architectural patterns*, which span an entire app or
 ## 参考
 
 - 主要参考：
-[Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift)
+[Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift)  
 [Design Patterns by Tutorials](https://store.raywenderlich.com/products/design-patterns-by-tutorials) 
 
 [DesignPatterns-Swift](https://github.com/lizelu/DesignPatterns-Swift)
@@ -117,3 +117,8 @@ https://www.appcoda.com/design-pattern-creational/
 https://design-patterns.readthedocs.io/zh_CN/latest/index.html
 
 http://www.runoob.com/design-pattern/design-pattern-tutorial.html
+
+
+
+
+https://github.com/VamshiIITBHU14/DesignPatternsInSwift
