@@ -1,5 +1,7 @@
-用Swift来实现设计模式
------------------
+### 用Swift来实现设计模式
+
+
+
 
 
 ## 设计模式的基本原则
@@ -81,7 +83,7 @@
 
 ### 23设计模式之间的关系
 
-![设计模式之间的关系](the-relationship-between-design-patterns.jpg)
+![设计模式之间的关系](images/the-relationship-between-design-patterns.jpg)
 
 
 ## 其它设计模式
@@ -103,6 +105,9 @@ MVVM and MVC, are actually *architectural patterns*, which span an entire app or
 [DesignPatterns-Swift](https://github.com/lizelu/DesignPatterns-Swift)
 [Trip-to-iOS-Design-Patterns](https://github.com/skyming/Trip-to-iOS-Design-Patterns): iOS 设计模式相关资料整理
 
+
+
+https://github.com/YouXianMing/iOS-Design-Patterns
 
 
 - 其它参考
