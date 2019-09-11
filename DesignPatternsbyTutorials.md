@@ -1,6 +1,6 @@
 ## Design Patterns by Tutorials
 
-### 介绍
+### 1.介绍
 
 #### 设计模式缺点
 
@@ -48,7 +48,7 @@
 
 
 
-### Class Diagram
+### 2.Class Diagram
 
 类图就像工程蓝图; 它们通过图片，符号和注释提供系统的相关信息。
 
@@ -119,3 +119,58 @@ UML故意模糊“依赖”是什么。 因此，无论何时使用依赖项箭�
 上面的完整类图
 
 ![](images/ARDPSwift-012.jpg)
+
+
+
+#### 类图一些例子
+
+![](/Users/andyron/myfield/github/AR-Design-Patterns-In-Swift/images/ARDPSwift-013.jpg)
+
+
+
+![](/Users/andyron/myfield/github/AR-Design-Patterns-In-Swift/images/ARDPSwift-014.jpg)
+
+
+
+![](/Users/andyron/myfield/github/AR-Design-Patterns-In-Swift/images/ARDPSwift-015.jpg)
+
+
+
+### 3.MVC
+
+![](/Users/andyron/myfield/github/AR-Design-Patterns-In-Swift/images/ARDPSwift-016.jpg)
+
+
+
+- **Models** 保存应用程序数据。 它们通常是结构体或简单的类。
+- **Views** 在屏幕上显示可视元素和控件。 它们通常是UIView的子类。
+- **Controllers** 在模型和视图之间进行协调。 它们通常是UIViewController的子类。
+
+MVC在iOS编程中非常常见，因为它是UIKit中采用的设计模式。
+
+允许控制器具有其模型和视图的strong属性，以便可以**直接**访问它们。 控制器可能具有多个模型和/或视图。
+相反，模型和视图不应该对其拥有的控制器有强烈的关系。 这将导致**retain cycle**。
+
+相反，模型通过**属性观察**与其控制器进行通信，将在后面的章节中深入了解，并且视图通过**IBActions**与其控制器进行通信。
+
+>  注意：视图可能通过委托对其拥有控制器的弱引用（请参阅第4章“委托模式”）。 例如，UITableView可以为其委托和/或dataSource引用保存对其拥有的视图控制器的弱引用。 但是，table view并不知道这些设置为其拥有的控制器 - 它们恰好是。
+
+控制器更难以重用，因为它们的逻辑通常非常特定于它们正在执行的任何任务。 因此，MVC不会尝试重用它们。
+
+斯坦福大学课程一个相关图：
+
+![](https://images2015.cnblogs.com/blog/851394/201512/851394-20151212190356325-1837031628.png)
+
+
+
+#### 什么时候使用？
+
+
+
+#### 应该注意什么？
+
+
+
+MVC是一个很好的起点，但它有局限性。 并非每个对象都能完全适合模型，视图或控制器的类别。 因此，仅使用MVC的应用程序往往在控制器中具有大量逻辑。 这可能导致视图控制器变得非常大！ 当发生这种情况时，有一个相当古怪的术语，称为“大规模视图控制器”。
+
+要解决此问题，应该在应用程序需要时引入其他设计模式。
